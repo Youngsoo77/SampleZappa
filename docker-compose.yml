@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  db:
+    container_name: local-postgre-db
+    image: postgres:10.3
+    ports:
+      - "5432:5432"
+  cache:
+    container_name: local-redis-cache
+    image: redis:4.0.8
+    ports:
+      - "6379:6379"
+

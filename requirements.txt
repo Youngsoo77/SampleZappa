@@ -1,0 +1,5 @@
+django
+django-debug-toolbar
+django_extensions
+psycopg2-binary
+zappa
