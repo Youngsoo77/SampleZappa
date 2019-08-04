@@ -1,5 +1,5 @@
-django
-django-debug-toolbar
-django_extensions
-psycopg2-binary
-zappa
+Django==2.2.4
+django-debug-toolbar==2.0
+django-extensions==2.2.1
+psycopg2-binary==2.8.3
+zappa==0.48.2
