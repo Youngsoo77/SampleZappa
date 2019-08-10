@@ -1,0 +1,9 @@
+[base]
+SECRET_KEY = some_secret_key
+
+[db]
+NAME = test_db_name
+HOST = test_db_host
+PASSWORD = test_db_user_password
+PORT = test_db_port_number
+USER = test_db_user
